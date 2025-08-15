@@ -1,0 +1,63 @@
+/* Container for the entire user page */
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* User information section */
+.userInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+/* Avatar styling */
+.avatar {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 5px solid #6c757d;
+  margin-bottom: 10px;
+}
+
+/* GitHub-specific avatar border */
+.github .avatar {
+  border-color: #6c757d;
+}
+
+/* GitLab-specific avatar border */
+.gitlab .avatar {
+  border-color: #fc6d26;
+}
+
+/* Repositories list section */
+.repos {
+  margin: 20px 0;
+}
+
+/* Repository details section */
+.repoDetails {
+  margin-top: 20px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background: #f9f9f9;
+}
+
+/* Button styling for repository list */
+.repos button {
+  background: none;
+  border: none;
+  padding: 8px;
+  cursor: pointer;
+  font-size: 1em;
+  color: #007bff;
+  text-align: left;
+  width: 100%;
+}
+
+.repos button:hover {
+  text-decoration: underline;
+}

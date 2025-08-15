@@ -1,0 +1,24 @@
+/* Container for the search form, centers the form horizontally */
+.form {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+/* Styles for the text input field */
+.input {
+  padding: 8px;
+  width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Styles for the submit/search button */
+.button {
+  padding: 8px 16px;
+  background: #6c757d;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}

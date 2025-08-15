@@ -1,0 +1,45 @@
+/* Main heading for the app, centered with dark text */
+.heading {
+  text-align: center;
+  color: #333;
+}
+
+/* Container for the results columns, flex layout with spacing */
+.resultsContainer {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 30px;
+}
+
+/* Each column (GitHub or GitLab) styling */
+.column {
+  width: 45%;
+  text-align: center;
+}
+
+/* Column titles (h2) centered with bottom padding */
+.column h2 {
+  text-align: center;
+  padding-bottom: 10px;
+  position: relative;
+}
+
+/* Decorative underline for the first column (GitHub) */
+.column:first-child h2::after {
+  content: "";
+  display: block;
+  width: 80%;
+  height: 5px;
+  background: #6c757d;
+  margin: 0 auto;
+}
+
+/* Decorative underline for the second column (GitLab) */
+.column:last-child h2::after {
+  content: "";
+  display: block;
+  width: 80%;
+  height: 5px;
+  background: #fc6d26;
+  margin: 0 auto;
+}

@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SearchBar Component matches snapshot 1`] = `
+<DocumentFragment>
+  <form
+    class="form"
+  >
+    <input
+      class="input"
+      placeholder="Search users..."
+      type="text"
+      value=""
+    />
+    <button
+      class="button"
+      type="submit"
+    >
+      Search
+    </button>
+  </form>
+</DocumentFragment>
+`;

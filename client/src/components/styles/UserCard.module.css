@@ -1,0 +1,45 @@
+/* Card container styling: layout, spacing, shadow, and hover effects */
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 15px;
+  margin: 10px auto;
+  width: 90%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  text-decoration: none;
+  color: inherit;
+  transition: transform 0.2s;
+}
+
+/* Hover effect for card: subtle zoom and stronger shadow */
+.card:hover {
+  transform: scale(1.02);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Avatar styling: size, shape, spacing, and provider border colors */
+.avatar {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  margin-right: 15px;
+  border: 5px solid;
+  flex-shrink: 0;
+}
+
+/* Username styling inside the card */
+.username {
+  font-size: 1.3em;
+  flex-grow: 1;
+}
+
+/* Provider-specific avatar border colors */
+.card[href*="github"] .avatar {
+  border-color: #6c757d;
+}
+
+.card[href*="gitlab"] .avatar {
+  border-color: #fc6d26;
+}
